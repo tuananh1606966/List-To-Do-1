@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#72C797"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_them"
+        android:textSize="30sp"
+        android:gravity="center"
+        android:textStyle="bold"
+        android:padding="10dp"
+        android:textColor="#FF00"
+        android:text="Thêm công việc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_them_cv"
+        android:hint="Nhập tên công việc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/tv_them"
+        android:layout_marginTop="10dp"/>
+    <Button
+        android:id="@+id/btn_them"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Thêm"
+        android:layout_below="@id/edt_them_cv"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="32dp"/>
+    <Button
+        android:id="@+id/btn_huy"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="huỷ"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:layout_below="@id/edt_them_cv"
+        android:layout_alignParentEnd="true"/>
+
+
+</RelativeLayout>

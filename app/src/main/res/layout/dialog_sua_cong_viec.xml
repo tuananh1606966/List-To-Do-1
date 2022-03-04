@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:padding="10dp"
+    android:background="#72C797"
+    android:layout_height="match_parent">
+    <TextView
+        android:id="@+id/tv_capnhat"
+        android:padding="10dp"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:textColor="#FF00"
+        android:textSize="26sp"
+        android:text="Cập nhật công việc"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <EditText
+        android:id="@+id/edt_sua_cong_viec"
+        android:layout_below="@id/tv_capnhat"
+        android:hint="Nhập tên công việc"
+        android:layout_marginTop="10dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"/>
+    <Button
+        android:id="@+id/btn_xacnhan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Xác nhận"
+        android:layout_below="@id/edt_sua_cong_viec"
+        android:layout_marginTop="20dp"
+        android:layout_marginLeft="32dp"/>
+    <Button
+        android:id="@+id/btn_huy_edit"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="huỷ"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="32dp"
+        android:layout_below="@id/edt_sua_cong_viec"
+        android:layout_alignParentEnd="true"/>
+
+</RelativeLayout>
